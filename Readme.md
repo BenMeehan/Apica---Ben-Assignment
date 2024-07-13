@@ -44,7 +44,7 @@ An LRU (Least Recently Used) cache with a backend server in Go and a frontend ap
 4. **Run the backend server:**
 
    ```bash
-   go run main.go
+   go run .
    ```
 
    The server will start on `http://localhost:8080`.
