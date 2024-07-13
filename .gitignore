@@ -1,0 +1,63 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+*.log
+*.out
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# React specific
+*.css.map
+*.js.map
+*.tsbuildinfo
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.DS_Store
+
+# Go specific
+*.test
+*.out
+*.exe
+*.exe~
+*.test
+*.cache
+*.cover
+*.prof
+*.log
+
+# Go modules
+**/vendor/
+**/go.sum
+**/go.mod
+
+# Go binary
+bin/
+
+# WebSocket connection
+*.sock
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Go workspace settings
+.gowork
